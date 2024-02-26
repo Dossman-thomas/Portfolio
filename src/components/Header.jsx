@@ -19,11 +19,11 @@ export default function Header() {
               </a>
 
               <a className="nav-link" href="#">
-                Contact
+                Resume
               </a>
 
               <a className="nav-link" href="#">
-                Resume
+                Contact
               </a>
 
             </div>
