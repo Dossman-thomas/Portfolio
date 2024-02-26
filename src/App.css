@@ -11,9 +11,16 @@
   padding: 0;
 }
 
-.header{
+header{
   height: 100px;
   width: 100%;
+  background-color: var(--bckgrnd);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 80px;
   background-color: var(--bckgrnd);
 }
 
