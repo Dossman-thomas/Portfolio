@@ -9,21 +9,27 @@ export default function Header() {
         <nav className="navbar d-flex justify-content-between align-items-center">
 
             <a className="navbar-brand ms-4" href="#">
-              <h1>Tom Dossman</h1>
+              <h1 id="dev-name">Tom Dossman</h1>
             </a>
 
             <div className="nav-box d-flex align-items-center gap-4 me-4">
 
               <a className="nav-link" href="#">
+                <p className="text">
                 Portfolio
+                </p>
               </a>
 
               <a className="nav-link" href="#">
-                Resume
+                <p className="text">
+                  Resume
+                </p>
               </a>
 
               <a className="nav-link" href="#">
-                Contact
+                <p className="text">
+                  Contact
+                </p>
               </a>
 
             </div>

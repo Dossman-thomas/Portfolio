@@ -8,7 +8,6 @@ export default function Footer() {
 
       <footer className="container-fluid d-flex align-items-center justify-content-around">
 
-
         <a className="nav-link" href="https://github.com/Dossman-thomas" target="_blank">
           <img id='igithub' src={githubIcon} alt="GitHub Icon" />
         </a>
@@ -16,10 +15,6 @@ export default function Footer() {
         <a className="nav-link" href="https://www.linkedin.com/in/tom-dossman-66b4092a5/" target="_blank">
           <img src={linkedInIcon} alt="LinkedIn Icon" />
         </a>
-
-        {/* <a className="nav-link" href="#">
-          Contact
-        </a> */}
 
       </footer>
 

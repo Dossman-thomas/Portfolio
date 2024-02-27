@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 :root {
-  --bckgrnd: #FFFDED;
+  --bckgrnd: #fffded;
+  --hghlght: #C12121;
   --pumpkin: #EC7C2B;
   --violet: #4F4789;
   --drkvio: #160531;
@@ -11,10 +14,17 @@
   padding: 0;
 }
 
-header{
+.text {
+  font-family: 'Signika Negative';
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+header {
   height: 100px;
   width: 100%;
   background-color: var(--bckgrnd);
+  color: var(--drkvio);
 }
 
 footer {
@@ -24,13 +34,19 @@ footer {
   background-color: var(--bckgrnd);
 }
 
-.navbar{
+.navbar {
   width: 100%;
 }
 
-#igithub{
+#igithub {
   height: 40px;
   width: 40px;
+}
+
+#dev-name {
+  font-family: 'Spectral Sc';
+  color: var(--hghlght);
+  margin: 0;
 }
 
 
