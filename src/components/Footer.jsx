@@ -1,4 +1,5 @@
-import githubIcon from '../assets/media/githubIcon.png'
+import githubIcon from '../assets/media/igithub.png'
+import linkedInIcon from '../assets/media/iLinkedIn.png'
 
 export default function Footer() {
 
@@ -9,11 +10,11 @@ export default function Footer() {
 
 
         <a className="nav-link" href="https://github.com/Dossman-thomas" target="_blank">
-          <img src={githubIcon} alt="GitHub Icon" />
+          <img id='igithub' src={githubIcon} alt="GitHub Icon" />
         </a>
 
         <a className="nav-link" href="https://www.linkedin.com/in/tom-dossman-66b4092a5/" target="_blank">
-          LinkedIn
+          <img src={linkedInIcon} alt="LinkedIn Icon" />
         </a>
 
         {/* <a className="nav-link" href="#">
