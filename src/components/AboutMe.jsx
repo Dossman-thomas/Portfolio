@@ -5,7 +5,7 @@ export default function AboutMe() {
     <>
       <div className="container-fluid mt-5 ms-5">
 
-        <div className="bio-container d-flex flex-column justify-content-center align-items-center">
+        <div className="greeting-container d-flex flex-column justify-content-center align-items-center">
 
           <h2 id="greeting">Nice To Meet You!</h2>
 

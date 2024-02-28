@@ -44,7 +44,7 @@ footer {
   width: 100%;
 }
 
-.bio-container {
+.greeting-container {
   background-color: var(--violet);
   color: var(--bckgrnd);
   width: 60%;
