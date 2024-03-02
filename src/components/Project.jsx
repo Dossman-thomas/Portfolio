@@ -7,31 +7,41 @@ export default function Project(props){
     
       <div className="card">
 
-        <div className="card-img-top position-relative overflow-hidden border rounded">
+        <div className="card-img-top position-relative overflow-hidden border rounded card-container">
 
           <img 
             src={props.imageUrl} 
-            alt={props.description} className="w-100" 
+            alt={props.description} className="w-100 card-img" 
           />
 
           <div className="overlay d-flex flex-column align-items-center justify-content-center">
 
-            <h3 className="text-white">
+            <h4 id='project-title' className="text-white">
               {props.title}
-            </h3>
+            </h4>
 
-            <p className="text-white">
+            <p id='project-description' className="text-white">
               {props.description}
             </p>
 
             <div className="links mt-2">
 
-              <a href={props.deployedLink} target="_blank" rel="noopener noreferrer" className="text-white">
-                View Site
+              <a href={props.deployedLink} target="_blank" rel="noopener noreferrer" className="text-white"
+              >
+                <p id='live-site'>
+                  View Site
+                </p>
               </a>
 
-              <a href={props.githubRepo} target="_blank" rel="noopener noreferrer" className="text-white">
+              <p> | </p>
+
+              <a href={props.githubRepo} target="_blank" rel="noopener noreferrer" className="text-white"
+              >
+
+                <p id='git-repo'>
                 GitHub Repo
+                </p>
+
               </a>
 
             </div>
