@@ -1,4 +1,4 @@
-import '../../public/css/project.css'
+import '../css/project.css'
 
 export default function Project(props){
 
