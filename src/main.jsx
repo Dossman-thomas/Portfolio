@@ -30,22 +30,22 @@ const router = createBrowserRouter([
       },
       // create paths for all other pages
       {
-        path: '/Portfolio',
+        path: '/portfolio',
         element: <Portfolio />,
       },
       {
-        path: '/Resume',
+        path: '/resume',
         element: <Resume />,
       },
       {
-        path: '/Contact',
+        path: '/contact',
         element: <Contact />,
       },
     ],
   },
 ]);
 
-
+// Render the RouterProvider component
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
 );

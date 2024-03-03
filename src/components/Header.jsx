@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 export default function Header() {
 
@@ -8,31 +9,55 @@ export default function Header() {
 
         <nav className="navbar d-flex justify-content-between align-items-center">
 
-            <a className="navbar-brand ms-4" href="#">
-              <h1 id="dev-name">Tom Dossman</h1>
-            </a>
 
-            <div className="nav-box d-flex align-items-center gap-4 me-4">
+          <Link
+            to={'/'}
+            className='navbar-brand ms-4'
+          >
 
-              <a className="nav-link" href="#">
-                <p className="text">
+            <h1 id="dev-name">
+              Tom Dossman
+            </h1>
+
+          </Link>
+
+          <div className="nav-box d-flex align-items-center gap-4 me-4">
+
+            <Link
+              to={'/portfolio'}
+              className='nav-link'
+            >
+
+              <p className="text">
                 Portfolio
-                </p>
-              </a>
+              </p>
 
-              <a className="nav-link" href="#">
-                <p className="text">
-                  Resume
-                </p>
-              </a>
+            </Link>
 
-              <a className="nav-link" href="#">
-                <p className="text">
-                  Contact
-                </p>
-              </a>
+            <Link
+              to={'/resume'}
+              className='nav-link'
+            >
 
-            </div>
+              <p className="text">
+                Resume
+              </p>
+
+            </Link>
+
+            <Link
+              to={'/contact'}
+              className='nav-link'
+            >
+
+              <p className="text">
+                Contact
+              </p>
+
+            </Link>
+
+
+          </div>
 
         </nav>
 
