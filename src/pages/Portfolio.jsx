@@ -21,14 +21,6 @@ export default function Portfolio() {
       deployedLink: 'https://daily-dev-dose-6efece3cf6b2.herokuapp.com/',
       githubRepo: 'https://github.com/Dossman-thomas/CMS-style-blog-site'
     },
-    // MVC RESTAURANT SAVING SITE
-    {
-      imageUrl: restaurantImage,
-      title: 'NomNav - Restaurant Saver',
-      description: 'full-stack web application that empowers users to save and revisit their favorite restaurants on an interactive map.',
-      deployedLink: '',
-      githubRepo: 'https://github.com/Dossman-thomas/Nom-Nav'
-    },
     // MUSIC FINDER APP
     {
       imageUrl: musicImage,
@@ -36,6 +28,14 @@ export default function Portfolio() {
       description: 'An interactive music discovery application that takes user input of their favorite musicians and dynamically presents the user with a list of similar artists, as well as links to their top songs, lyrics, music videos, and upcoming concerts.',
       deployedLink: 'https://dossman-thomas.github.io/Sound-Scout/',
       githubRepo: 'https://github.com/Dossman-thomas/Sound-Scout'
+    },
+    // MVC RESTAURANT SAVING SITE
+    {
+      imageUrl: restaurantImage,
+      title: 'NomNav - Restaurant Saver',
+      description: 'full-stack web application that empowers users to save and revisit their favorite restaurants on an interactive map.',
+      deployedLink: '',
+      githubRepo: 'https://github.com/Dossman-thomas/Nom-Nav'
     },
     // TEXT EDITOR PWA APP
     {
