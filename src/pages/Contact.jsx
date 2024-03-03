@@ -10,7 +10,10 @@ export default function Contact() {
 
         <div className='container heading-box'>
           <h2>Contact Me</h2>
+
         </div>
+
+        <h4>Fill out this form and I'll get back to you ASAP!</h4>
 
         <ContactForm />
 

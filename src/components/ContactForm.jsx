@@ -22,7 +22,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container mt-5 mb-5 form-box">
+    <div className="container mt-3 mb-5 form-box">
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="name" className="form-label">Name:</label>
