@@ -22,11 +22,10 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container mt-5">
-      <h2>Contact Me</h2>
+    <div className="container mt-5 mb-5 form-box">
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
-          <label htmlFor="name" className="form-label">Name</label>
+          <label htmlFor="name" className="form-label">Name:</label>
           <input
             type="text"
             className="form-control"
@@ -38,7 +37,7 @@ const ContactForm = () => {
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="email" className="form-label">Email Address</label>
+          <label htmlFor="email" className="form-label">Email Address:</label>
           <input
             type="email"
             className="form-control"
@@ -50,7 +49,7 @@ const ContactForm = () => {
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="message" className="form-label">Message</label>
+          <label htmlFor="message" className="form-label">Message:</label>
           <textarea
             className="form-control"
             id="message"
@@ -61,7 +60,9 @@ const ContactForm = () => {
             required
           ></textarea>
         </div>
-        <button type="submit" className="btn btn-primary">Submit</button>
+        <div id='error-message'></div>
+        <button type="submit" className="btn"
+        id='submit-btn'>Submit</button>
       </form>
     </div>
   );
