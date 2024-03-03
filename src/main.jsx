@@ -10,6 +10,7 @@ import './App.css'
 
 // import pages the router will use to conditionally show the appropriate views
 import App from './App.jsx';
+import Error from './pages/Error.jsx';
 import AboutMe from './pages/AboutMe.jsx';
 import Portfolio from './pages/Portfolio.jsx';
 import Resume from './pages/Resume.jsx';
@@ -24,9 +25,10 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       {
-        index: true,
+        index: true, // set the home page
         element: <AboutMe />,
       },
+      // create paths for all other pages
       {
         path: '/Portfolio',
         element: <Portfolio />,
@@ -42,6 +44,7 @@ const router = createBrowserRouter([
     ],
   },
 ]);
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
