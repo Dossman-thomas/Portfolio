@@ -1,0 +1,75 @@
+:root {
+  --bckgrnd: #fffded;
+  --hghlght: #C12121;
+  --pumpkin: #EC7C2B;
+  --violet: #4F4789;
+  --drkvio: #160531;
+  --blck: #000000;
+}
+
+p {
+  margin: 0;
+}
+
+h2,
+h3 {
+  margin: 0;
+  color: black; 
+}
+
+h5 {
+  color: var(--pumpkin);
+  margin: 0;
+}
+
+h6 {
+  color: var(--bckgrnd);
+  margin: 0;
+}
+
+.white-text {
+  color: var(--bckgrnd);
+}
+
+.drkvio-text {
+  color: var(--drkvio)
+}
+
+.school-yr {
+  padding: 0;
+}
+
+#resume-header {
+  background-color: var(--pumpkin);
+  padding: 17px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 15px 15px 0 black;
+}
+
+#resume-btn {
+  background-color: var(--violet);
+  color: var(--bckgrnd);
+  cursor: pointer;
+}
+
+#projects-box,
+#edu-box {
+  background-color: var(--violet);
+  box-shadow: 15px 15px 0 var(--drkvio);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#projects-heading,
+#education-heading {
+  color: var(--bckgrnd);
+}
+
+#resume-points {
+  margin: 0;
+}
+
+#bod {
+  margin-bottom: 140px;
+}
