@@ -50,18 +50,25 @@ header {
 .greeting-container {
   background-color: var(--violet);
   color: var(--bckgrnd);
-  width: 60%;
-  height: 90%;
+  width: 90%;
+  height: 95%;
   padding: 2rem;
+  margin-bottom: 150px;
   text-align: center;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   box-shadow: 20px 20px 0 var(--drkvio);
+
 }
 
 #greeting {
   font-family: 'Spectral Sc';
   color: var(--blck);
+}
+
+#dev-avatar {
+  height: 500px;
+  /* width: 80%; */
 }
 
 /* Footer Styles */
