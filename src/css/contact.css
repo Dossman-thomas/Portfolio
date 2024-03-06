@@ -1,26 +1,15 @@
-:root {
-  --bckgrnd: #fffded;
-  --hghlght: #C12121;
-  --pumpkin: #EC7C2B;
-  --violet: #4F4789;
-  --drkvio: #160531;
-  --blck: #000000;
-}
-
-* {
-  font-family: 'Signika Negative';
-}
+/* Contact Form Styles */
 
 form {
   color: var(--bckgrnd);
 }
 
-img {
+.email-icons {
   width: 45px;
   height: 45px;
 }
 
-img:hover {
+.email-icons:hover {
   width: 60px;
   height: 60px;
   box-shadow: 0 0 20px var(--drkvio);

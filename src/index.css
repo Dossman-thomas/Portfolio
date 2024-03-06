@@ -1,0 +1,42 @@
+:root {
+  --bckgrnd: #fffded;
+  --hghlght: #C12121;
+  --pumpkin: #EC7C2B;
+  --violet: #4F4789;
+  --drkvio: #160531;
+  --blck: #000000;
+}
+
+* {
+  font-family: 'Signika Negative';
+}
+
+/* Reset default browser styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd,
+fieldset,
+legend,
+input,
+textarea,
+pre,
+iframe,
+hr {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+

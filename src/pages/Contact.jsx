@@ -28,13 +28,13 @@ export default function Contact() {
 
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tdossman.development@gmail.com" target="_blank" rel="noopener noreferrer">
                 
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail Icon" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail Icon" className="email-icons"/>
 
               </a>
 
               <a href="mailto:tdossman.development@gmail.com" target="_blank" rel="noopener noreferrer">
                 
-                <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg" alt="Outlook Icon" />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg" alt="Outlook Icon" className="email-icons"/>
     
               </a>
 

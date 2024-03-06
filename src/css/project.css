@@ -1,7 +1,5 @@
+/* Project Card Styles */
 
-* {
-  font-family: 'Signika Negative';
-}
 
 .card {
   width: 560px;
@@ -65,6 +63,15 @@
     margin: 0 10px;
   }
 
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 120px;
 }
 
 #live-site:hover,

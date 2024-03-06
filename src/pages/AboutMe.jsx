@@ -19,11 +19,14 @@ export default function AboutMe() {
           Constantly hungry for knowledge, web development has become my playground, a realm I once took for granted but now embrace for its depth and intricacies.
           <br></br>
           <br></br>
-          When not in front of the screen, I trade code for the therapeutic outdoors via hiking, gardening, snowboarding, and windsurfing. I also love to mix it up on the ice (hockey) and passionately root for the Philadelphia Flyers!
+          When not in front of the screen, I trade code for the therapeutic outdoors via hiking, gardening, snowboarding, and windsurfing. I also love to mix it up on the ice (hockey), passionately rooting for the Philadelphia Flyers! When I'm not doing any of that, you'll probably find me making music!
           <br></br>
           <br></br>
           Let's connect and explore the endless possibilities at the intersection of technology and creativity!
           </p>
+
+        </div>
+        <div className="container img-box">
 
         </div>
 
