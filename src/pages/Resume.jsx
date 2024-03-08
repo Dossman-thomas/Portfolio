@@ -1,4 +1,5 @@
 import '../css/resume.css'
+import ResumePng from '../assets/deliverables/Tom-Dossman-resume.png';
 
 export default function Resume() {
 
@@ -12,10 +13,9 @@ export default function Resume() {
           <h2>
             Full Stack Developer
           </h2>
-
-          <button className='btn' id='resume-btn'>
+          <a className='btn' id='resume-btn' href={ResumePng} download>
             Download
-          </button>
+          </a>
 
         </div>
         <div className='container d-flex justify-content-center align-items-center flex-column'>

@@ -9,7 +9,7 @@ export default function AboutMe() {
         <div className="greeting-container d-flex flex-column justify-content-center align-items-center">
 
         <h2 id="greeting">Nice To Meet You!</h2>
-        
+
           <img src={devAvatar} alt="Tom Dossman Full Stack Developer Avatar PNG" id="dev-avatar" />
 
 
