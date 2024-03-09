@@ -1,5 +1,9 @@
 /* Contact Form Styles */
 
+* {
+  font-family: "Signika Negative";
+}
+
 form {
   color: var(--bckgrnd);
 }
@@ -20,6 +24,10 @@ form {
 h4 {
   margin: 10px 0;
   text-align: center;
+}
+
+.contact-info {
+  font-weight: 600;
 }
 
 .heading-box {

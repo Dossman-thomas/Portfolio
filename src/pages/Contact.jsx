@@ -6,7 +6,16 @@ export default function Contact() {
   return (
 
     <>
-      <div className="container mt-5 contact-box">
+      <div className="container mt-4 contact-box">
+        <div className="container mb-5 d-flex justify-content-between align-items-center">
+          <p className="contact-info">
+            tdossman.development@gmail.com
+          </p>
+          <p className="contact-info">
+            215.459.3984
+          </p>
+          
+        </div>
 
         <div className='container heading-box'>
           <h2>Contact Me</h2>
