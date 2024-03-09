@@ -20,6 +20,10 @@
   margin: 0;
 }
 
+.text:hover {
+  color: var(--violet);
+}
+
 body {
   background-color: var(--bckgrnd);
 }
@@ -38,11 +42,14 @@ header {
   width: 100%;
 }
 
-
 #dev-name {
   font-family: 'Spectral Sc';
-  color: var(--hghlght);
+  /* color: var(--drkvio); */
   margin: 0;
+}
+
+.active {
+  color: var(--hghlght);
 }
 
 /* About Me Styles */
