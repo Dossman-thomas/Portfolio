@@ -17,7 +17,9 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can add your form submission logic here
+
+    // add form submission logic here
+    
     console.log('Form submitted:', formData);
   };
 

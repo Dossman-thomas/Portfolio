@@ -7,7 +7,9 @@ export default function Contact() {
 
     <>
       <div className="container mt-4 contact-box">
+
         <div className="container mb-5 d-flex justify-content-between align-items-center">
+
           <p className="contact-info">
             tdossman.development@gmail.com
           </p>
@@ -18,7 +20,15 @@ export default function Contact() {
         </div>
 
         <div className='container heading-box'>
-          <h2>Contact Me</h2>
+
+          <h2>
+            Contact Me
+          </h2>
+
+        </div>
+
+        <div className="d-flex align-items-center justify-content-around mt-3" id="email-box">
+
 
         </div>
 
@@ -26,14 +36,11 @@ export default function Contact() {
 
         <ContactForm />
 
-        <div className="d-flex align-items-center justify-content-around mt-5" id="email-box">
+        <div className='d-flex justify-content-center align-items-center mb-4' id='email-links'>
 
-          <h4>
-            Or, Send Me an Email Directly!
-          </h4>
-
-
-            <div className='d-flex' id='email-links'>
+              <h4>
+                Send me an email directly:
+              </h4>
 
               <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tdossman.development@gmail.com" target="_blank" rel="noopener noreferrer">
                 
@@ -48,12 +55,6 @@ export default function Contact() {
               </a>
 
             </div>
-
-
-
-
-        </div>
-
 
       </div>
 
