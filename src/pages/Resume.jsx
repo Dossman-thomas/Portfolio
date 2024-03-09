@@ -47,7 +47,7 @@ export default function Resume() {
               Full Stack Developer
             </p>
 
-            <p className='drkvio-text'>
+            <p className='white-text mb-1'>
               a comprehensive tech blog site, facilitating user registration, login, and seamless posting of tech blog entries. Users can engage through comments on existing posts, fostering a vibrant community.
             </p>
 
@@ -71,7 +71,7 @@ export default function Resume() {
 
             </ul>
 
-            <p className='drkvio-text mb-4'>
+            <p className='orange-text mb-4'>
               TECHNOLOGIES: Node.js, MySQL (Sequelize ORM), Express.js, Bcrypt, Handlebars, Dotenv
             </p>
 
@@ -89,7 +89,7 @@ export default function Resume() {
               UI/UX Designer, Frontend Developer
             </p>
 
-            <p className='drkvio-text'>
+            <p className='white-text mb-1'>
               A full-stack web application enabling users to effortlessly save and revisit their favored restaurants.  The application features an interactive map interface for an enhanced user experience.
             </p>
 
@@ -113,7 +113,7 @@ export default function Resume() {
 
             </ul>
 
-            <p className='drkvio-text mb-4'>
+            <p className='orange-text mb-4'>
               TECHNOLOGIES: Node.js, MySQL (Sequelize ORM), Express.js, Bcrypt, Handlebars, Dotenv, Leaflet.js
             </p>
 
@@ -130,7 +130,7 @@ export default function Resume() {
               UI/UX Designer, Frontend Developer
             </p>
 
-            <p className='drkvio-text'>
+            <p className='white-text mb-1'>
               An interactive music discovery application that takes user input of their favorite musicians and dynamically presents the user with a list of similar artists, as well as links to their top songs, lyrics, music videos, and upcoming concerts.
             </p>
 
@@ -154,7 +154,7 @@ export default function Resume() {
 
             </ul>
 
-            <p className='drkvio-text mb-4'>
+            <p className='orange-text mb-4'>
               TECHNOLOGIES: HTML, CSS, JavaScript, Bulma CSS, Last FM API, Shazam API.
             </p>
 
@@ -277,7 +277,7 @@ export default function Resume() {
               Certified Full Stack Developer
             </p>
 
-            <p className='drkvio-text mb-4'>
+            <p className='white-text mb-4'>
               Bootcamp certification by EdX.
             </p>
 
@@ -301,7 +301,7 @@ export default function Resume() {
               Bachelor of Integrated Arts
             </p>
 
-            <p className='drkvio-text mb-3'>
+            <p className='white-text mb-3'>
               Minors in Business and Music Technology
             </p>
 
