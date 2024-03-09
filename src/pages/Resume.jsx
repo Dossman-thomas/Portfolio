@@ -253,7 +253,7 @@ export default function Resume() {
 
         </div>
 
-        <div className='container d-flex flex-column p-4 mb-5' id='edu-box'>
+        <div className='container d-flex flex-column p-4 mb-2' id='edu-box'>
 
           <h3 className='mt-2 mb-4 text-center' id='education-heading'>
             Education
