@@ -292,7 +292,7 @@ export default function Resume() {
                 Penn State University
               </h5>
               <h6>
-                Oct 2010 - Dec 2015
+                Aug 2010 - Dec 2015
               </h6>
             </div>
 
