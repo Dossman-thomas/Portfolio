@@ -5,14 +5,21 @@ import blogImage from '../images/projects/DailyDevDose_homepage.png';
 import restaurantImage from '../images/projects/City_Glimpse_Demo.gif';
 import musicImage from '../images/projects/sound-scout-ss1.png';
 import pwaImage from '../images/projects/Jate-demo.gif';
-import quizImage from '../images/projects/Code-questions-screenshot.png';
+import ActivateMeImage from '../images/projects/ActivateMe-demo.gif';
 import weatherImage from '../images/projects/weather-ss2.png';
 
 
 export default function Portfolio() {
 
   const projects = [
-
+    // ACTIVITY TRACKER APP
+    {
+      imageUrl: ActivateMeImage,
+      title: 'ActivateMe. - Activity Tracker App',
+      description: 'A collaborative project designed to empower users in tracking their daily activities and fostering healthier lifestyle habits. With ActivateMe, users can effortlessly monitor their daily routines, including exercise, nutrition, sleep, and more, with the ultimate goal of enhancing productivity and overall well-being.',
+      deployedLink: 'https://activateme.onrender.com/',
+      githubRepo: 'https://github.com/spritchard54/ActivateMe'
+    },
     // TECH BLOG SITE
     {
       imageUrl: blogImage,
@@ -44,14 +51,6 @@ export default function Portfolio() {
       description: 'A single-page text-editor application that meets the PWA criteria, features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser, and functions offline.',
       deployedLink: 'https://dossman-text-editor-1.onrender.com/',
       githubRepo: 'https://github.com/Dossman-thomas/PWA-Text-Editor'
-    },
-    // CODING QUIZ APP
-    {
-      imageUrl: quizImage,
-      title: 'Code Quiz - Tech Quiz App',
-      description: 'A code quiz app that presents web development students with an opportunity to practice for the coding assessment portion of technical interviews they will face during the hiring process.',
-      deployedLink: 'https://dossman-thomas.github.io/coding-quiz/',
-      githubRepo: 'https://github.com/Dossman-thomas/coding-quiz'
     },
     // WEATHER DASHBOARD APP
     {
