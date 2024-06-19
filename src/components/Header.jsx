@@ -1,30 +1,31 @@
 import React, { useEffect, useState } from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
+import NavBar from './NavBar';
+// import { NavLink, useLocation } from 'react-router-dom';
 
 export default function Header() {
-  const location = useLocation();
-  const [currentPage, setCurrentPage] = useState(location.pathname);
+  // const location = useLocation();
+  // const [currentPage, setCurrentPage] = useState(location.pathname);
 
-  const [activeCss, setActiveCss ] = useState({
-    color: '#C12121'
-  })
+  // const [activeCss, setActiveCss ] = useState({
+  //   color: '#C12121'
+  // })
 
-  useEffect(() => {
-    setCurrentPage(location.pathname);
-  }, [location.pathname]);
+  // useEffect(() => {
+  //   setCurrentPage(location.pathname);
+  // }, [location.pathname]);
 
-  const activeLinkStyle = {
-    color: '#C12121',
-    // Add any other styles you want for the active link
-  };
+  // const activeLinkStyle = {
+  //   color: '#C12121',
+  //   // Add any other styles you want for the active link
+  // };
 
-  const changeColor = () => {
-    setActiveCss({ color: '#C12121'})
-  }
+  // const changeColor = () => {
+  //   setActiveCss({ color: '#C12121'})
+  // }
 
   return (
     <header className="container-fluid header d-flex align-items-center">
-      <nav className="navbar d-flex justify-content-between align-items-center">
+      {/* <nav className="navbar d-flex justify-content-between align-items-center">
         <NavLink to={'/'} className="navbar-brand ms-4 text" activeClassName="active" activeStyle={activeCss} onClick={changeColor}>
           <h1 id="dev-name">Tom Dossman</h1>
         </NavLink>
@@ -39,7 +40,8 @@ export default function Header() {
             <p className="text">Contact</p>
           </NavLink>
         </div>
-      </nav>
+      </nav> */}
+      <NavBar />
     </header>
   );
 }
