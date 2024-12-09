@@ -36,7 +36,7 @@ export default function Contact() {
 
         <ContactForm />
 
-        <div className='d-flex justify-content-center align-items-center mb-4' id='email-links'>
+        {/* <div className='d-flex justify-content-center align-items-center mb-4' id='email-links'>
 
           <h4>
             Send me an email directly:
@@ -54,7 +54,7 @@ export default function Contact() {
 
           </a>
 
-        </div>
+        </div> */}
 
       </div>
 
