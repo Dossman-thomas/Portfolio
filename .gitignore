@@ -2,6 +2,9 @@
 vs_code
 .DS_Store
 Thumbs.db 
+node_modules
+dist
+.env
 
 # Logs
 logs

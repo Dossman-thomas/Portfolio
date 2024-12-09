@@ -14,20 +14,13 @@ export default function AboutMe() {
           />
 
           <p>
-            Hello there! I'm Tom! I’m a Full Stack Developer with a keen eye for
-            frontend magic. My love for art and design fuels my creativity,
-            making the frontend my canvas to craft seamless and visually clean
-            user experiences.
-            <br></br>
-            <br></br>
-            Beyond UX/UI, I'm also intrigued by the backend—how APIs and
-            databases rule the web, plus how it all interfaces with the
-            frontend!
-            <br></br>
-            <br></br>
-            Constantly hungry for knowledge, web development has become my
-            playground, a realm I once took for granted but now embrace for its
-            depth and intricacies.
+            I am a personable Full Stack Developer with a strong foundation in
+            Angular, React, TypeScript, JavaScript, and Node. Known for my
+            problem-solving skills and ability to thrive in dynamic teams, I
+            excel at tackling complex challenges and delivering project success.
+            Self-motivated and detail-oriented, I adapt quickly to new concepts
+            and technologies, fostering collaboration and positivity in
+            fast-paced environments.
             <br></br>
             <br></br>
             When not in front of the screen, I trade code for the therapeutic

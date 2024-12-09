@@ -1,16 +1,19 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
 
   const [errors, setErrors] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
 
   const handleChange = (e) => {
@@ -22,7 +25,7 @@ const ContactForm = () => {
     // Clear the specific field error when the user starts typing
     setErrors((prevErrors) => ({
       ...prevErrors,
-      [name]: '',
+      [name]: "",
     }));
   };
 
@@ -32,24 +35,24 @@ const ContactForm = () => {
 
     // Check for required fields
     if (!formData.name.trim()) {
-      newErrors.name = 'Name is required';
+      newErrors.name = "Name is required";
       valid = false;
     }
 
     if (!formData.email.trim()) {
-      newErrors.email = 'Email is required';
+      newErrors.email = "Email is required";
       valid = false;
     } else {
       // Check for a valid email format
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailRegex.test(formData.email)) {
-        newErrors.email = 'Invalid email format';
+        newErrors.email = "Invalid email format";
         valid = false;
       }
     }
 
     if (!formData.message.trim()) {
-      newErrors.message = 'Message is required';
+      newErrors.message = "Message is required";
       valid = false;
     }
 
@@ -62,10 +65,32 @@ const ContactForm = () => {
 
     // Validate the form before submission
     if (validateForm()) {
-      // Add form submission logic here
-      console.log('Form submitted:', formData);
+      emailjs
+        .send(
+          import.meta.env.VITE_EMAILJS_SERVICE_ID, // Use Vite environment variable for Service ID
+          import.meta.env.VITE_EMAILJS_TEMPLATE_ID, // Use Vite environment variable for Template ID
+          {
+            from_name: formData.name, // Map to EmailJS template variable
+            from_email: formData.email, // Map to EmailJS template variable
+            message: formData.message, // Map to EmailJS template variable
+          },
+          import.meta.env.VITE_EMAILJS_PUBLIC_KEY // Use Vite environment variable for Public Key
+        )
+        .then(
+          (result) => {
+            console.log("Email sent successfully:", result.text);
+            toast.success("Message sent successfully!");
+            setFormData({ name: "", email: "", message: "" }); // Reset form
+          },
+          (error) => {
+            console.error("Error sending email:", error);
+            toast.error(
+              "There was an error sending your message. Please try again."
+            );
+          }
+        );
     } else {
-      console.log('Form validation failed');
+      toast.error("Please fill out the form correctly.");
     }
   };
 
@@ -78,7 +103,7 @@ const ContactForm = () => {
           </label>
           <input
             type="text"
-            className={`form-control ${errors.name && 'is-invalid'}`}
+            className={`form-control ${errors.name && "is-invalid"}`}
             id="name"
             name="name"
             value={formData.name}
@@ -93,7 +118,7 @@ const ContactForm = () => {
           </label>
           <input
             type="email"
-            className={`form-control ${errors.email && 'is-invalid'}`}
+            className={`form-control ${errors.email && "is-invalid"}`}
             id="email"
             name="email"
             value={formData.email}
@@ -107,7 +132,7 @@ const ContactForm = () => {
             Message:
           </label>
           <textarea
-            className={`form-control ${errors.message && 'is-invalid'}`}
+            className={`form-control ${errors.message && "is-invalid"}`}
             id="message"
             name="message"
             value={formData.message}
@@ -117,11 +142,11 @@ const ContactForm = () => {
           ></textarea>
           <div className="invalid-feedback">{errors.message}</div>
         </div>
-        <div id="error-message"></div>
         <button type="submit" className="btn" id="submit-btn">
           Submit
         </button>
       </form>
+      <ToastContainer />
     </div>
   );
 };
