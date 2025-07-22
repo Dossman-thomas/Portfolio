@@ -60,37 +60,31 @@ const ContactForm = () => {
     return valid;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Validate the form before submission
-    if (validateForm()) {
-      emailjs
-        .send(
-          import.meta.env.VITE_EMAILJS_SERVICE_ID, // Use Vite environment variable for Service ID
-          import.meta.env.VITE_EMAILJS_TEMPLATE_ID, // Use Vite environment variable for Template ID
+    try {
+      if (validateForm()) {
+        const result = await emailjs.send(
+          import.meta.env.VITE_EMAILJS_SERVICE_ID,
+          import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
           {
-            from_name: formData.name, // Map to EmailJS template variable
-            from_email: formData.email, // Map to EmailJS template variable
-            message: formData.message, // Map to EmailJS template variable
+            from_name: formData.name,
+            from_email: formData.email,
+            message: formData.message,
           },
-          import.meta.env.VITE_EMAILJS_PUBLIC_KEY // Use Vite environment variable for Public Key
-        )
-        .then(
-          (result) => {
-            console.log("Email sent successfully:", result.text);
-            toast.success("Message sent successfully!");
-            setFormData({ name: "", email: "", message: "" }); // Reset form
-          },
-          (error) => {
-            console.error("Error sending email:", error);
-            toast.error(
-              "There was an error sending your message. Please try again."
-            );
-          }
+          import.meta.env.VITE_EMAILJS_PUBLIC_KEY
         );
-    } else {
-      toast.error("Please fill out the form correctly.");
+
+        console.log("Email sent:", result.text);
+        toast.success("Message sent successfully!");
+        setFormData({ name: "", email: "", message: "" });
+      } else {
+        toast.error("Please fill out the form correctly.");
+      }
+    } catch (error) {
+      console.error("Unexpected error:", error);
+      toast.error("Something went wrong. Please try again.");
     }
   };
 
