@@ -40,7 +40,7 @@ header {
   width: 100%;
   background-color: var(--bckgrnd);
   /* color: var(--drkvio); */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.123);
+  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.123); */
 }
 
 .navbar {
