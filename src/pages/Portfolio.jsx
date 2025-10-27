@@ -3,7 +3,6 @@ import Project from "../components/Project.jsx";
 import quizCardImage from "../images/projects/QuizCard_demo.gif";
 import LAMountainsImage from "../images/projects/LAMountainsPage_demo.gif";
 import blogImage from "../images/projects/DailyDevDose_homepage.png";
-import restaurantImage from "../images/projects/City_Glimpse_Demo.gif";
 import musicImage from "../images/projects/sound-scout-ss1.png";
 import pwaImage from "../images/projects/Jate-demo.gif";
 import ActivateMeImage from "../images/projects/ActivateMe-demo.gif";

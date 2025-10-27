@@ -14,23 +14,21 @@ export default function AboutMe() {
           />
 
           <p>
-            I am a personable Full Stack Developer with a strong foundation in
-            Angular, React, TypeScript, JavaScript, Node, and PostgreSQL. Known for my
-            problem-solving skills and ability to thrive in dynamic teams, I
-            excel at tackling complex challenges and delivering project success.
-            Self-motivated and detail-oriented, I adapt quickly to new concepts
-            and technologies, fostering collaboration and positivity in
-            fast-paced environments.
+            I'm a Full Stack Developer, passionate about
+            blending artistic design and technology to build clean, modern, and
+            intuitive web applications. I love creating responsive, accessible
+            interfaces that elevate user experiences and bring ideas to life
+            through thoughtful design and efficient code.
             <br></br>
             <br></br>
-            When not in front of the screen, I trade code for the therapeutic
-            outdoors via hiking, gardening, snowboarding, and windsurfing. I
-            also love to mix it up on the ice (hockey), passionately rooting for
-            the Philadelphia Flyers!
+            Proficient across the full development stack, I also enjoy building
+            APIs, optimizing performance, and deploying scalable solutions. I'm
+            highly skilled in leveraging AI-assisted development tools and
+            emerging technologies to increase efficiency, enhance product
+            quality, and contribute to high-performing, forward-thinking teams.
             <br></br>
             <br></br>
-            Let's connect and explore the endless possibilities at the
-            intersection of technology and creativity!
+            ⚡ Fun facts: I love pickleball, ice hockey, and long walks and hikes to recharge creative energy!
           </p>
         </div>
       </div>
