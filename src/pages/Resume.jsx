@@ -1,6 +1,6 @@
 import "../css/resume.css";
-import ResumeJpg from "../assets/deliverables/TomDossman-RESUME-png.png";
-import ScannableResume from "../assets/deliverables/Tom_Dossman_Scannable_Resume.pdf"; 
+import DossmanResume from "../assets/deliverables/Tom_Dossman_Resume.pdf";
+import FEDossmanResume from "../assets/deliverables/Tom_Dossman_Resume_FE.pdf";
 
 export default function Resume() {
   return (
@@ -15,11 +15,11 @@ export default function Resume() {
       >
         <section>
           <div className="d-flex mb-3 justify-content-between align-items-center border-bottom pb-3">
-            <a className="btn" id="resume-btn" href={ResumeJpg} download>
-              Graphic Resume
+            <a className="btn" id="resume-btn" href={DossmanResume} download>
+              Download Resume
             </a>
-            <a className="btn" id="resume-btn" href={ScannableResume} download>
-              Scannable Resume
+            <a className="btn" id="resume-btn" href={FEDossmanResume} download>
+              Download Font-end Leaning Resume
             </a>
           </div>
           <header>
