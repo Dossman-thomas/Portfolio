@@ -1,4 +1,6 @@
-
+.resume-header {
+  height: 80px; 
+}
 
 #resume-btn {
   background-color: var(--violet);

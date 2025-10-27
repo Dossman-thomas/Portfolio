@@ -13,6 +13,44 @@ export default function Resume() {
           lineHeight: 1.5,
         }}
       >
+        <header className="resume-header">
+          <h2
+            style={{
+              fontWeight: "normal",
+              color: "#555",
+              marginTop: 0,
+            }}
+          >
+            Full Stack Developer
+          </h2>
+          <p
+            style={{
+              margin: "0.2rem 0",
+              fontSize: "0.9rem",
+              color: "#444",
+            }}
+          >
+            <a href="mailto:tdossman.development@gmail.com">
+              tdossman.development@gmail.com
+            </a>{" "}
+            |{" "}
+            <a
+              href="https://github.com/Dossman-thomas"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              github.com/Dossman-thomas
+            </a>{" "}
+            |{" "}
+            <a
+              href="https://linkedin.com/in/tom-dossman"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              linkedin.com/in/tom-dossman
+            </a>
+          </p>
+        </header>
         <section>
           <div className="d-flex mb-3 justify-content-between align-items-center border-bottom pb-3">
             <a className="btn" id="resume-btn" href={DossmanResume} download>
@@ -22,45 +60,6 @@ export default function Resume() {
               Download Font-end Leaning Resume
             </a>
           </div>
-          <header>
-            <h1 style={{ fontSize: "2.5rem", marginBottom: 0 }}>Tom Dossman</h1>
-            <h2
-              style={{
-                fontWeight: "normal",
-                color: "#555",
-                marginTop: 0,
-              }}
-            >
-              Full Stack Developer
-            </h2>
-            <p
-              style={{
-                margin: "0.2rem 0",
-                fontSize: "0.9rem",
-                color: "#444",
-              }}
-            >
-              <a href="mailto:tdossman.development@gmail.com">
-                tdossman.development@gmail.com
-              </a>{" "}
-              |{" "}
-              <a
-                href="https://github.com/Dossman-thomas"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                github.com/Dossman-thomas
-              </a>{" "}
-              |{" "}
-              <a
-                href="https://linkedin.com/in/tom-dossman"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                linkedin.com/in/tom-dossman
-              </a>
-            </p>
-          </header>
 
           <section id="summary" style={{ marginTop: "2rem" }}>
             <h3
@@ -72,9 +71,12 @@ export default function Resume() {
               Summary
             </h3>
             <p>
-              Full Stack Developer passionate about blending art and technology
-              to build clean, modern web applications. Committed to writing
-              maintainable code and contributing to collaborative team success.
+              Full Stack Developer who is passionate about blending artistic
+              design and technology to build clean, modern web applications.
+              Skilled in crafting responsive, accessible interfaces while
+              leveraging backend knowledge and AI-assisted development tools to
+              optimize workflows, enhance code quality, and contribute to
+              high-performing, forward-thinking teams.
             </p>
           </section>
 
@@ -150,6 +152,13 @@ export default function Resume() {
                   components and seamless interfaces.
                 </li>
                 <li>
+                  Collaborate with designers to transform wireframes and
+                  prototypes into accessible, pixel-perfect UI components.
+                </li>
+                <li>
+                  Ensure consistent styling and responsiveness across devices using CSS frameworks and design systems.
+                </li>
+                <li>
                   Configure RESTful APIs with Node.js, optimizing data exchange
                   and improving frontend-backend communication.
                 </li>
@@ -174,9 +183,11 @@ export default function Resume() {
                   streamline maintenance, testing, and collaboration.
                 </li>
                 <li>
-                  Utilize AI tools, documentation, and forums to efficiently
-                  solve development challenges, accelerate delivery timelines,
-                  and improve code quality.
+                  Participate in code reviews, contributing to a collaborative and iterative development environment.
+                </li>
+                <li>
+                  Apply AI-assisted development tools to accelerate debugging,
+                  improve code structure, and streamline repetitive tasks.
                 </li>
               </ul>
             </article>
