@@ -21,16 +21,19 @@ export default function Project(props) {
             </p>
 
             <div className="links mt-2">
-              <a
-                href={props.deployedLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-white"
-              >
-                <p id="live-site">View Site</p>
-              </a>
-
-              <p> | </p>
+              {props.deployedLink ? (
+                <>
+                  <a
+                    href={props.deployedLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white"
+                  >
+                    <p id="live-site">View Site</p>
+                  </a>
+                  <p> | </p>
+                </>
+              ) : null}
 
               <a
                 href={props.githubRepo}

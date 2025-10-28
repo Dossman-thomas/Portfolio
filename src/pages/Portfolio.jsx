@@ -34,7 +34,7 @@ export default function Portfolio() {
       title: "DailyDevDose - Tech Blog",
       description:
         "a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well",
-      deployedLink: "https://daily-dev-dose-6efece3cf6b2.herokuapp.com/",
+      // deployedLink: "https://daily-dev-dose-6efece3cf6b2.herokuapp.com/",
       githubRepo: "https://github.com/Dossman-thomas/CMS-style-blog-site",
     },
     // MUSIC FINDER APP
