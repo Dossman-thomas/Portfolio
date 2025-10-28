@@ -39,6 +39,9 @@ header {
   height: 100px;
   width: 100%;
   background-color: var(--bckgrnd);
+}
+
+.drop-shadow {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.062);
 }
 
@@ -105,7 +108,3 @@ footer {
   height: 40px;
   width: 40px;
 }
-
-
-
-

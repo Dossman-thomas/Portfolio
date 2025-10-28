@@ -7,7 +7,7 @@ export default function Resume() {
     <>
       {/* Scannable HTML Resume Section */}
       <div
-        className="container mb-5"
+        className="container mb-5 mt-3"
         style={{
           fontFamily: "Arial, sans-serif",
           lineHeight: 1.5,
