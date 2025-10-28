@@ -2,6 +2,7 @@ import Project from "../components/Project.jsx";
 
 import quizCardImage from "../images/projects/QuizCard_demo.gif";
 import LAMountainsImage from "../images/projects/LAMountainsPage_demo.gif";
+import flickFolioImage from "../images/projects/FlickFolio-demo.gif";
 import blogImage from "../images/projects/DailyDevDose_homepage.png";
 import musicImage from "../images/projects/sound-scout-ss1.png";
 import pwaImage from "../images/projects/Jate-demo.gif";
@@ -45,6 +46,15 @@ export default function Portfolio() {
         "An interactive music discovery application that takes user input of their favorite musicians and dynamically presents the user with a list of similar artists, as well as links to their top songs, lyrics, music videos, and upcoming concerts.",
       deployedLink: "https://dossman-thomas.github.io/Sound-Scout/",
       githubRepo: "https://github.com/Dossman-thomas/Sound-Scout",
+    },
+    // FLICK FOLIO MOVIE FINDER APP
+    {
+      imageUrl: flickFolioImage,
+      title: "Flick-Folio - Movie Library App",
+      description:
+        "A sleek and intuitive movie library app built with React.js. Seamlessly discover your favorite movies in one place. With FlickFolio, users can easily browse through a vast collection of films.",
+      deployedLink: "https://flick-folio.onrender.com/",
+      githubRepo: "https://github.com/Dossman-thomas/flick-folio",
     },
     // LA Mountains INFO SITE
     {
