@@ -57,7 +57,7 @@ export default function Resume() {
               Download Resume
             </a>
             <a className="btn" id="resume-btn" href={FEDossmanResume} download>
-              Download Font-end Leaning Resume
+              Download Front-end Resume
             </a>
           </div>
 
