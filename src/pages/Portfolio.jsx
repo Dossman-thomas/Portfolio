@@ -4,7 +4,7 @@ import quizCardImage from "../images/projects/QuizCard_demo.gif";
 import LAMountainsImage from "../images/projects/LAMountainsPage_demo.gif";
 import flickFolioImage from "../images/projects/FlickFolio-demo.gif";
 import blogImage from "../images/projects/DailyDevDose_homepage.png";
-import musicImage from "../images/projects/sound-scout-ss1.png";
+import musicImage from "../images/projects/sound-scout-demo.gif";
 import pwaImage from "../images/projects/Jate-demo.gif";
 import ActivateMeImage from "../images/projects/ActivateMe-demo.gif";
 import weatherImage from "../images/projects/weather-ss2.png";
@@ -44,7 +44,7 @@ export default function Portfolio() {
       title: "SoundScout - Music Finder",
       description:
         "An interactive music discovery application that takes user input of their favorite musicians and dynamically presents the user with a list of similar artists, as well as links to their top songs, lyrics, music videos, and upcoming concerts.",
-      deployedLink: "https://dossman-thomas.github.io/Sound-Scout/",
+      deployedLink: "https://sound-scout-ef3u.onrender.com/",
       githubRepo: "https://github.com/Dossman-thomas/Sound-Scout",
     },
     // FLICK FOLIO MOVIE FINDER APP
