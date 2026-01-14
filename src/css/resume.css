@@ -1,5 +1,19 @@
 .resume-header {
-  height: 80px; 
+  height: 80px;
+}
+
+.section-titles {
+  margin-top: 2rem;
+}
+
+.edu-subtexts {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.underlines {
+  border-bottom: 2px solid var(--pumpkin);
+  padding-bottom: 0.2rem;
 }
 
 #resume-btn {

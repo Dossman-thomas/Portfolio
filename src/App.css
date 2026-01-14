@@ -19,6 +19,14 @@ a {
   color: var(--drkvio);
 }
 
+strong {
+  color: var(--violet);
+}
+
+h3 {
+  color: var(--drkvio);
+}
+
 .text {
   font-family: 'Signika Negative';
   font-size: 1.4rem;

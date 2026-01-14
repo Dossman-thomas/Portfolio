@@ -17,7 +17,7 @@ export default function Resume() {
           <h2
             style={{
               fontWeight: "normal",
-              color: "#555",
+              color: "var(--drkvio)",
               marginTop: 0,
             }}
           >
@@ -61,15 +61,8 @@ export default function Resume() {
             </a>
           </div>
 
-          <section id="summary" style={{ marginTop: "2rem" }}>
-            <h3
-              style={{
-                borderBottom: "2px solid #007ACC",
-                paddingBottom: "0.2rem",
-              }}
-            >
-              Summary
-            </h3>
+          <section id="summary" className="section-titles">
+            <h3 className="underlines">Summary</h3>
             <p>
               Full Stack Developer who is passionate about blending artistic
               design and technology to build clean, modern web applications.
@@ -80,68 +73,84 @@ export default function Resume() {
             </p>
           </section>
 
-          <section id="education-certification" style={{ marginTop: "2rem" }}>
-            <h3
-              style={{
-                borderBottom: "2px solid #007ACC",
-                paddingBottom: "0.2rem",
-              }}
-            >
-              Education and Certification
-            </h3>
+          <section id="education-certification" className="section-titles">
+            <h3 className="underlines">Education and Certification</h3>
             <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
+              <li>
+                <strong>CS50P — Introduction to Programming with Python</strong>{" "}
+                | Harvard University &nbsp;
+                <em>Course Complete - Final Project In Progress</em>
+                <div className="edu-subtexts">
+                  Covered Python Functions, Variables, Conditionals, Loops,
+                  Exceptions, Libraries, Unit Tests, File I/O, RegEx, OOP, and a
+                  final project.
+                </div>
+              </li>
               <li>
                 <strong>Full Stack Development Certification</strong> |
                 University of Pennsylvania &nbsp; <em>Sep 2023 – Mar 2024</em>
               </li>
+              <div className="edu-subtexts">
+                Demonstrated a fundamental working knowledge of HTML, CSS,
+                JavaScript, third-party APIs, Progressive Web Applications,
+                MySQL, API design, and the MERN stack (MongoDB, Express.js,
+                React.js, Node.js). Displayed ability to work with diverse teams
+                on demanding timelines to build fully functional web
+                applications from start to finish. Exhibited skills necessary to
+                learn new technologies and resolve issues independently
+              </div>
               <li>
                 <strong>Bachelor’s Degree</strong> | Pennsylvania State
                 University, Main Campus &nbsp; <em>Aug 2010 – Dec 2015</em>
+                <div className="edu-subtexts">
+                  BA of Liberal Arts Emphasizing Business and Audio Technology.
+                </div>
               </li>
             </ul>
           </section>
 
-          <section id="technical-skills" style={{ marginTop: "2rem" }}>
-            <h3
-              style={{
-                borderBottom: "2px solid #007ACC",
-                paddingBottom: "0.2rem",
-              }}
-            >
-              Technical Skills
-            </h3>
+          <section id="technical-skills" className="section-titles">
+            <h3 className="underlines">Technical Skills</h3>
+
             <p>
-              HTML | CSS | JavaScript | TypeScript | Angular | React | Node |
-              Express | UI/UX Design | Figma | Bootstrap | ORMs (Sequelize) |
-              PostgreSQL | Jest | Data Encryption/Decryption | Debugging |
-              Version Control (Git) | ChatGPT | Claude | Google
+              <strong>Languages & Frontend Frameworks: </strong> HTML | CSS |
+              JavaScript | TypeScript | Angular | React | Bootstrap | Tailwind |
+              Bulma
+              <br></br>
+              <strong>Backend & Runtime: </strong> Python | Node.js | Express
+              <br></br>
+              <strong>Databases & ORMs: </strong> PostgreSQL | Sequelize (ORM)
+              <br></br>
+              <strong>UI/UX & Design Tools: </strong> UI/UX Design | Responsive
+              Design | Accessibility | Component Architecture | Figma
+              <br></br>
+              <strong>API Development: </strong> Postman | REST APIs | RESTful
+              API Design | Endpoint Testing
+              <br></br>
+              <strong>Testing & Quality: </strong> Jest | Pytest | Debugging
+              <br></br>
+              <strong>Security: </strong> AES-based Encryption/Decryption | PGP
+              | Auth | JWT
+              <br></br>
+              <strong>Version Control & Collaboration: </strong> Git | Microsoft
+              Teams
+              <br></br>
+              <strong>AI & DevTools: </strong> ChatGPT | Claude | CoPilot |
+              Chrome DevTools | Lighthouse
+              <br></br>
             </p>
           </section>
 
-          <section id="soft-skills" style={{ marginTop: "2rem" }}>
-            <h3
-              style={{
-                borderBottom: "2px solid #007ACC",
-                paddingBottom: "0.2rem",
-              }}
-            >
-              Soft Skills
-            </h3>
+          <section id="soft-skills" className="section-titles">
+            <h3 className="underlines">Soft Skills</h3>
             <p>
               Communication | Collaboration | Problem Solving | Attention to
               detail | Commitment to growth | Positive mindset
             </p>
           </section>
 
-          <section id="work-experience" style={{ marginTop: "2rem" }}>
-            <h3
-              style={{
-                borderBottom: "2px solid #007ACC",
-                paddingBottom: "0.2rem",
-              }}
-            >
-              Work Experience
-            </h3>
+          <section id="work-experience" className="section-titles">
+            <h3 className="underlines">Work Experience</h3>
             <article style={{ marginBottom: "1rem" }}>
               <h4>Full Stack Developer Intern | AllianceTek Inc | Remote</h4>
               <time dateTime="2024-06">Jun 2024 – Present</time>
@@ -156,7 +165,8 @@ export default function Resume() {
                   prototypes into accessible, pixel-perfect UI components.
                 </li>
                 <li>
-                  Ensure consistent styling and responsiveness across devices using CSS frameworks and design systems.
+                  Ensure consistent styling and responsiveness across devices
+                  using CSS frameworks and design systems.
                 </li>
                 <li>
                   Configure RESTful APIs with Node.js, optimizing data exchange
@@ -183,7 +193,8 @@ export default function Resume() {
                   streamline maintenance, testing, and collaboration.
                 </li>
                 <li>
-                  Participate in code reviews, contributing to a collaborative and iterative development environment.
+                  Participate in code reviews, contributing to a collaborative
+                  and iterative development environment.
                 </li>
                 <li>
                   Apply AI-assisted development tools to accelerate debugging,
@@ -193,15 +204,8 @@ export default function Resume() {
             </article>
           </section>
 
-          <section id="projects" style={{ marginTop: "2rem" }}>
-            <h3
-              style={{
-                borderBottom: "2px solid #007ACC",
-                paddingBottom: "0.2rem",
-              }}
-            >
-              Projects
-            </h3>
+          <section id="projects" className="section-titles">
+            <h3 className="underlines">Projects</h3>
             <article style={{ marginBottom: "1rem" }}>
               <h4>
                 ActivateMe - Activity Tracker App <small>(Mar 2024)</small>
