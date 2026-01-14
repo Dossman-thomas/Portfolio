@@ -1,6 +1,8 @@
 import "../css/resume.css";
 import DossmanResume from "../assets/deliverables/Tom_Dossman_Resume.pdf";
 import FEDossmanResume from "../assets/deliverables/Tom_Dossman_Resume_FE.pdf";
+import CS50Shirtificate from "../assets/media/CS50_Shirtificate.png";
+import CertificateModal from "../components/CertificateModal";
 
 export default function Resume() {
   return (
@@ -77,9 +79,12 @@ export default function Resume() {
             <h3 className="underlines">Education and Certification</h3>
             <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
               <li>
-                <strong>CS50P — Introduction to Programming with Python</strong>{" "}
+                <strong>
+                  CS50 — Introduction to Programming with Python{" "}
+                  <CertificateModal pngPath={CS50Shirtificate} title="CS50P" />
+                </strong>{" "}
                 | Harvard University &nbsp;
-                <em>Course Complete - Final Project In Progress</em>
+                <em>Course Complete - Final Project In Progress</em>{" "}
                 <div className="edu-subtexts">
                   Covered Python Functions, Variables, Conditionals, Loops,
                   Exceptions, Libraries, Unit Tests, File I/O, RegEx, OOP, and a
@@ -87,18 +92,32 @@ export default function Resume() {
                 </div>
               </li>
               <li>
-                <strong>Full Stack Development Certification</strong> |
-                University of Pennsylvania &nbsp; <em>Sep 2023 – Mar 2024</em>
+                <strong>
+                  {" "}
+                  Full Stack Development
+                  <a
+                    href="https://certificates-pod.sas.upenn.edu/f093c48e-907f-492c-8794-aebf038db9d3#acc.p73QquhP"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    Certification
+                  </a>
+                </strong>{" "}
+                | University of Pennsylvania &nbsp; <em>
+                  Sep 2023 – Mar 2024
+                </em>{" "}
+                <div className="edu-subtexts">
+                  Demonstrated a fundamental working knowledge of HTML, CSS,
+                  JavaScript, third-party APIs, Progressive Web Applications,
+                  MySQL, API design, and the MERN stack (MongoDB, Express.js,
+                  React.js, Node.js). Displayed ability to work with diverse
+                  teams on demanding timelines to build fully functional web
+                  applications from start to finish. Exhibited skills necessary
+                  to learn new technologies and resolve issues independently
+                </div>
               </li>
-              <div className="edu-subtexts">
-                Demonstrated a fundamental working knowledge of HTML, CSS,
-                JavaScript, third-party APIs, Progressive Web Applications,
-                MySQL, API design, and the MERN stack (MongoDB, Express.js,
-                React.js, Node.js). Displayed ability to work with diverse teams
-                on demanding timelines to build fully functional web
-                applications from start to finish. Exhibited skills necessary to
-                learn new technologies and resolve issues independently
-              </div>
+
               <li>
                 <strong>Bachelor’s Degree</strong> | Pennsylvania State
                 University, Main Campus &nbsp; <em>Aug 2010 – Dec 2015</em>
